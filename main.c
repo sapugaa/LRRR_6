@@ -10,6 +10,7 @@ int main(void)
 	float Result; 
 	printf("Число: ");
 	scanf("%f",&Numeral);
+	printf("лабораторная работа №6"); 
 	printf("Операция (+,-,*,/,pow,sqrt,sin,cos,tan): "); 
 	scanf("%s",Operation);
 	Result = Calculate(Numeral, Operation); 
